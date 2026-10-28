@@ -12,8 +12,6 @@ do.cleanuponabort=0
 device.name1=j2lte
 device.name2=j2ltedtv
 device.name3=j2lteub
-device.name4=
-device.name5=
 } # end properties
 
 # shell variables
@@ -29,7 +27,7 @@ is_slot_device=0;
 ## AnyKernel install
 dump_boot;
 
-# nenhuma alteracao no ramdisk
+# dont make any change on ramdisk
 
 write_boot;
 
